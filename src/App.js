@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="container">
       <header className="header">
+        {/* Logo is an actual React component */}
+        <Logo />
       </header>
       <div className="hero_container">
         <div className="hero_avatar">

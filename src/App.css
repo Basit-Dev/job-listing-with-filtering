@@ -1,0 +1,42 @@
+.App > h1 {
+  text-transform: uppercase ;
+}
+.container{
+  width: 100%;
+  margin: auto;
+}
+
+.hero_container {
+ background-color: white;
+ width: 90%;
+ margin: 2rem auto;
+}
+.hero_text_container-heading {
+  display: flex;
+  padding: 1rem;
+}
+.company {
+  padding: 0.3rem;
+  font-weight: bold;
+  color: hsl(180, 29%, 50%);;
+}
+.new, .featured {
+  margin: 0 0.3rem 0 0.3rem;
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  font-weight: bold;
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px 10px 5px 10px;
+}
+.featured {
+  background-color: black;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    /* background-color: lightblue; */
+  }
+}
+li {
+  list-style-type: none;
+}
