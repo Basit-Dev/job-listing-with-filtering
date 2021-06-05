@@ -11,17 +11,21 @@
  width: 90%;
  margin: 2rem auto;
 }
-.hero_text_container-heading {
-  display: flex;
+.hero_text_container, .hero_text_container_attributes {
   padding: 1rem;
 }
+.hero_text_container-heading {
+  display: flex;
+  align-items: center;
+  /* padding: 1rem; */
+}
 .company {
-  padding: 0.3rem;
+  /* padding: 0.3rem; */
   font-weight: bold;
   color: hsl(180, 29%, 50%);;
 }
 .new, .featured {
-  margin: 0 0.3rem 0 0.3rem;
+  margin-left: 0.8rem;
   background-color: hsl(180, 29%, 50%);
   color: white;
   font-weight: bold;
@@ -29,14 +33,16 @@
   padding: 5px 10px 5px 10px;
 }
 .featured {
+  margin-left: 0.5rem;
   background-color: black;
 }
-
+/* 
 @media only screen and (max-width: 375px) {
   body {
-    /* background-color: lightblue; */
-  }
-}
+    background-color: lightblue;
+    }
+}  */
+
 li {
   list-style-type: none;
 }
